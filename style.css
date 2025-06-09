@@ -206,7 +206,7 @@ button:hover{
     height: 100%;
     margin-right: 20px;
 }
-.center h3{
+.center h3,.right h3{
     padding-left:4.2rem;
     padding-bottom: .5rem;
 
@@ -252,5 +252,32 @@ button:hover{
     transform: translate(-60% -60%);
 }
 .right{
-    background-color: bisque;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.projects-2{
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.longcards{
+    border: 1px solid grey;
+    height: 11.8rem;
+    width: 75%;
+    border-left: 10px solid #F0B429;
+    border-radius: 10px ;
+    padding-left: 2.5rem;
+    padding-top: 1.7rem;
+    box-shadow: 10px 4px 20px 4px rgb(0 0 0 / 52%);
+    opacity: .8;
+}
+.longcards:hover{
+    opacity: 1;
+    background-color: #e5d1e8;
 }
